@@ -21,6 +21,7 @@
 		6FD95D591812BEB200317025 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD95D3B1812BEB200317025 /* UIKit.framework */; };
 		6FD95D611812BEB200317025 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6FD95D5F1812BEB200317025 /* InfoPlist.strings */; };
 		6FD95D631812BEB200317025 /* Passing_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD95D621812BEB200317025 /* Passing_Data_Challenge_SolutionTests.m */; };
+		6FD95D6E1812BFB200317025 /* CCDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD95D6D1812BFB200317025 /* CCDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		6FD95D5E1812BEB200317025 /* Passing Data Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Passing Data Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		6FD95D601812BEB200317025 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6FD95D621812BEB200317025 /* Passing_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Passing_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		6FD95D6C1812BFB200317025 /* CCDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDetailViewController.h; sourceTree = "<group>"; };
+		6FD95D6D1812BFB200317025 /* CCDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				6FD95D491812BEB200317025 /* Main.storyboard */,
 				6FD95D4C1812BEB200317025 /* CCViewController.h */,
 				6FD95D4D1812BEB200317025 /* CCViewController.m */,
+				6FD95D6C1812BFB200317025 /* CCDetailViewController.h */,
+				6FD95D6D1812BFB200317025 /* CCDetailViewController.m */,
 				6FD95D4F1812BEB200317025 /* Images.xcassets */,
 				6FD95D3E1812BEB200317025 /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				6FD95D481812BEB200317025 /* CCAppDelegate.m in Sources */,
 				6FD95D441812BEB200317025 /* main.m in Sources */,
 				6FD95D4E1812BEB200317025 /* CCViewController.m in Sources */,
+				6FD95D6E1812BFB200317025 /* CCDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
