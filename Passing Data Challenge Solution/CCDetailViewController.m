@@ -38,4 +38,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+/* When we press the update button update the label's text property with the textField's text property. Call the method defined in the protocol. This method is implemented in the CCViewController file. */ 
+- (IBAction)updateButtonPressed:(id)sender
+{
+    self.label.text = self.textField.text;
+    [self.delegate didUpdateText:self.textField.text];
+}
 @end
